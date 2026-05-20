@@ -3,6 +3,7 @@
 const App = {
   songs: [],
   query: '',
+  currentTab: 'all',
 
   async init() {
     this.applyTheme();
@@ -50,10 +51,21 @@ const App = {
   },
 
   getDisplayList() {
-    let list = [...this.songs].sort((a, b) => {
-      const cmp = a.artist.localeCompare(b.artist, 'ja');
-      return cmp !== 0 ? cmp : a.title.localeCompare(b.title, 'ja');
-    });
+    let list = [...this.songs];
+
+    if (this.currentTab === 'recent') {
+      const threshold = new Date();
+      threshold.setDate(threshold.getDate() - 30);
+      list = list
+        .filter(s => new Date(s.addedDate) >= threshold)
+        .sort((a, b) => new Date(b.addedDate) - new Date(a.addedDate));
+    } else {
+      list.sort((a, b) => {
+        const cmp = a.artist.localeCompare(b.artist, 'ja');
+        return cmp !== 0 ? cmp : a.title.localeCompare(b.title, 'ja');
+      });
+    }
+
     if (this.query) {
       const q = this.normalize(this.query);
       list = list.filter(s =>
@@ -76,15 +88,21 @@ const App = {
       empty.classList.remove('hidden');
       emptyMsg.textContent = this.query
         ? `「${this.query}」は見つかりませんでした`
-        : '曲が登録されていません';
+        : this.currentTab === 'recent'
+          ? '最近追加された曲はありません（30日以内）'
+          : '曲が登録されていません';
     } else {
       empty.classList.add('hidden');
       container.innerHTML = list.map(s => this.renderCard(s)).join('');
     }
 
-    count.textContent = this.query
-      ? `${list.length} 曲 / 全 ${this.songs.length} 曲`
-      : `全 ${this.songs.length} 曲`;
+    if (this.currentTab === 'recent' && !this.query) {
+      count.textContent = `最近追加 ${list.length} 曲`;
+    } else if (this.query) {
+      count.textContent = `${list.length} 曲 / 全 ${this.songs.length} 曲`;
+    } else {
+      count.textContent = `全 ${this.songs.length} 曲`;
+    }
   },
 
   renderCard(song) {
@@ -126,6 +144,19 @@ const App = {
       searchClear.classList.remove('visible');
       searchInput.focus();
       this.render();
+    });
+
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => {
+          t.classList.remove('active');
+          t.setAttribute('aria-selected', 'false');
+        });
+        tab.classList.add('active');
+        tab.setAttribute('aria-selected', 'true');
+        this.currentTab = tab.dataset.tab;
+        this.render();
+      });
     });
   }
 };
