@@ -160,6 +160,43 @@ body {
 .search-clear.visible { display: flex; }
 .search-clear:active { background-color: var(--surface-3); }
 
+/* ===== Tabs ===== */
+.tabs {
+  display: flex;
+  gap: 10px;
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 14px;
+  transition: background-color var(--ease);
+}
+
+.tab {
+  flex: 1;
+  height: 48px;
+  border: 2px solid var(--border);
+  border-radius: var(--r-pill);
+  background: transparent;
+  color: var(--text-sub);
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 150ms ease, color 150ms ease,
+              border-color 150ms ease, transform 120ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.tab.active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+.tab:not(.active):hover {
+  border-color: var(--text-sub);
+  color: var(--text);
+}
+.tab:active { transform: scale(0.95); }
+
 .main {
   padding: 10px 12px 72px;
   max-width: 640px;
