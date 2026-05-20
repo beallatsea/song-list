@@ -1,140 +1,389 @@
 [
+  
   {
-    "artist": "JUDY AND MARY",
-    "title": "そばかす",
+    "artist": "Ado",
+    "title": "ギラギラ",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+ 
+  {
+    "artist": "AI",
+    "title": "Story",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "HY",
-    "title": "366日",
+    "artist": "aiko",
+    "title": "愛の病",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "中島みゆき",
-    "title": "糸",
+    "artist": "aiko",
+    "title": "ストロー",
     "practice": false,
-    "addedDate": "2026-04-10"
-  },
-  {
-    "artist": "夏川りみ",
-    "title": "涙そうそう",
-    "practice": false,
-    "addedDate": "2026-04-10"
-  },
-  {
-    "artist": "絢香",
-    "title": "三日月",
-    "practice": false,
-    "addedDate": "2026-04-10"
+    "addedDate": "2026-05-18"
   },
   {
     "artist": "あいみょん",
     "title": "マリーゴールド",
     "practice": false,
-    "addedDate": "2026-04-10"
+    "addedDate": "2026-03-15"
   },
   {
-    "artist": "NANA starring MIKA NKASHIMA",
-    "title": "GLAMOROUS SKY",
+    "artist": "あいみょん",
+    "title": "裸の心",
+    "practice": true,
+    "addedDate": "2026-05-12"
+  },
+  {
+    "artist": "絢香",
+    "title": "みんな空の下",
+    "practice": true,
+    "addedDate": "2026-05-20"
+  },
+  {
+    "artist": "井上あずみ",
+    "title": "君をのせて",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "MAHO堂",
-    "title": "おジャ魔女カーニバル!!",
+    "artist": "いきものがかり",
+    "title": "気まぐれロマンティック",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "aiko",
-    "title": "カブトムシ",
+    "artist": "一青窈",
+    "title": "ハナミズキ",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+ 
+  {
+    "artist": "Every Little Thing",
+    "title": "Time goes by",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "宇多田ヒカル",
-    "title": "First Love",
+    "artist": "Every Little Thing",
+    "title": "fragile",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "Every Little Thing",
+    "title": "出逢った頃のように",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "プラネタリウム",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "黒毛和牛上塩タン680円",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "ユメクイ",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "SMILY",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "金魚花火",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "さくらんぼ",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "甘えんぼ",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "PEACH",
+    "practice": true,
+    "addedDate": "2026-05-20"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "恋愛写真",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "大塚愛",
+    "title": "フレンジャー",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "太田裕美",
+    "title": "木綿のハンカチーフ",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "尾崎豊",
+    "title": "OH MY LITTLE GIRL",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "加藤ミリヤ",
+    "title": "Aitai",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  
+  {
+    "artist": "Kiroro",
+    "title": "長い間",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "Kiroro",
+    "title": "未来へ",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "倖田來未",
+    "title": "愛のうた",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "倖田來未",
+    "title": "you",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "小柳ゆき",
+    "title": "あなたのキスを数えましょう",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "千石撫子（花澤香菜）",
+    "title": "恋愛サーキュレーション",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "超ときめき宣伝部",
+    "title": "最上級に可愛いの！",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "ディズニー",
+    "title": "パート・オブ・ユア・ワールド",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "tuki.",
+    "title": "晩餐歌",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+ 
+  {
+    "artist": "B小町",
+    "title": "サインはB",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "浜崎あゆみ",
+    "title": "M",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "浜崎あゆみ",
+    "title": "SEASONS",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "Hump Back",
+    "title": "拝啓、少年よ",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "HY",
+    "title": "song for・・・",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "HY",
+    "title": "NAO",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "Hysteric Blue",
+    "title": "春～spring～",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "JUDY AND MARY",
+    "title": "Over Drive",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "JUDY AND MARY",
+    "title": "散歩道",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "松浦亜弥",
+    "title": "桃色片想い",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "mihimaruGT",
+    "title": "気分上々↑↑",
+    "practice": true,
+    "addedDate": "2026-05-20"
+  },
+  {
+    "artist": "mihimaruGT",
+    "title": "恋する気持ち",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "miwa",
+    "title": "ヒカリへ",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+  
+  {
+    "artist": "西野カナ",
+    "title": "GO FOR IT!!",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
     "artist": "西野カナ",
-    "title": "if",
+    "title": "もしも運命の人がいるのなら",
+    "practice": true,
+    "addedDate": "2026-05-20"
+  },
+  
+  {
+    "artist": "PUFFY",
+    "title": "アジアの純真",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "西野カナ",
-    "title": "トリセツ",
+    "artist": "Superfly",
+    "title": "愛をこめて花束を",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "Ado",
-    "title": "神っぽいな",
+    "artist": "supercell",
+    "title": "君の知らない物語",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "ヨルシカ",
-    "title": "ただ君に晴れ",
+    "artist": "suis from ヨルシカ",
+    "title": "若者のすべて",
+    "practice": false,
+    "addedDate": "2026-04-10"
+  },
+ 
+  {
+    "artist": "YOASOBI",
+    "title": "アイドル",
+    "practice": false,
+    "addedDate": "2026-04-01"
+  },
+  {
+    "artist": "YOASOBI",
+    "title": "夜に駆ける",
+    "practice": false,
+    "addedDate": "2026-02-20"
+  },
+  {
+    "artist": "YOASOBI",
+    "title": "あの夢をなぞって",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "ヨルシカ",
-    "title": "だから僕は音楽を辞めた",
+    "artist": "YOASOBI",
+    "title": "ハルカ",
+    "practice": true,
+    "addedDate": "2026-04-10"
+  },
+  {
+    "artist": "YOASOBI",
+    "title": "祝福",
+    "practice": true,
+    "addedDate": "2026-05-20"
+  },
+  {
+    "artist": "YOASOBI",
+    "title": "怪物",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "ヨルシカ",
-    "title": "春泥棒",
+    "artist": "YUI",
+    "title": "CHE.R.RY",
     "practice": false,
     "addedDate": "2026-04-10"
   },
   {
-    "artist": "MISIA",
-    "title": "アイノカタチ feat.HIDE",
+    "artist": "YUI for 雨音薫",
+    "title": "Good-bye days",
     "practice": false,
     "addedDate": "2026-04-10"
   },
+ 
   {
-    "artist": "DREAMS COME TRUE",
-    "title": "大阪LOVER",
+    "artist": "ZONE",
+    "title": "secret base～君がくれたもの～",
     "practice": false,
     "addedDate": "2026-04-10"
-  },
-  {
-    "artist": "aiko",
-    "title": "花火",
-    "practice": false,
-    "addedDate": "2026-04-10"
-  },
-  {
-    "artist": "松田聖子",
-    "title": "赤いスイートピー",
-    "practice": false,
-    "addedDate": "2026-04-15"
-  },
-  {
-    "artist": "aiko",
-    "title": "ボーイフレンド",
-    "practice": false,
-    "addedDate": "2026-05-03"
-  },
-  {
-    "artist": "岩崎良美",
-    "title": "タッチ",
-    "practice": false,
-    "addedDate": "2026-04-10"
-  },
-  {
-    "artist": "宇多田ヒカル",
-    "title": "Automatic",
-    "practice": false,
-    "addedDate": "2026-05-17"
   }
 ]
