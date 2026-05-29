@@ -560,5 +560,18 @@
     "practice": true,
     "addedDate": "2026-05-20"
   }
+    {
+    "artist": "広末涼子",
+    "title": "MajiでKoiする5秒前",
+    "practice": true,
+    "addedDate": "2026-05-20"
+  },
+  {
+    "artist": "倖田來未",
+    "title": "Butterfly",
+    "practice": false,
+    "addedDate": "2025-04-10"
+  }
+
   
 ]
