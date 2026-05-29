@@ -40,7 +40,7 @@
   {
     "artist": "絢香",
     "title": "みんな空の下",
-    "practice": true,
+    "practice": false,
     "addedDate": "2026-05-20"
   },
   {
@@ -302,7 +302,7 @@
   {
     "artist": "西野カナ",
     "title": "もしも運命の人がいるのなら",
-    "practice": true,
+    "practice": false,
     "addedDate": "2026-05-20"
   },
   
