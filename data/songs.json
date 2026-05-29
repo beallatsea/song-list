@@ -571,7 +571,68 @@
     "title": "Butterfly",
     "practice": false,
     "addedDate": "2025-04-10"
+  },
+   {
+    "artist": "幾田りら",
+    "title": "恋風",
+    "practice": false,
+    "addedDate": "2026-05-29"
+  },
+  {
+    "artist": "幾田りら",
+    "title": "スパークル",
+    "practice": false,
+    "addedDate": "2026-05-29"
+  },
+  {
+    "artist": "miwa",
+    "title": "片想い",
+    "practice": false,
+    "addedDate": "2026-05-29"
+  },
+  {
+    "artist": "aiko",
+    "title": "キラキラ",
+    "practice": true,
+    "addedDate": "2026-05-29"
+  },
+  {
+    "artist": "aiko",
+    "title": "KissHug",
+    "practice": true,
+    "addedDate": "2026-05-29"
+  },
+  {
+    "artist": "西野カナ",
+    "title": "このままで",
+    "practice": true,
+    "addedDate": "2026-05-29"
+  },
+  {
+    "artist": "西野カナ",
+    "title": "Always",
+    "practice": true,
+    "addedDate": "2026-05-29"
+  },
+  {
+    "artist": "Aimer",
+    "title": "残響散歌",
+    "practice": true,
+    "addedDate": "2026-05-29"
+  },
+  {
+    "artist": "Boa",
+    "title": "Winter Love",
+    "practice": true,
+    "addedDate": "2026-05-29"
+  },
+  {
+    "artist": "岡本真夜",
+    "title": "TOMORROW",
+    "practice": true,
+    "addedDate": "2026-05-29"
   }
+]
 
   
 ]
